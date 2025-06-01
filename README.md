@@ -310,8 +310,7 @@ each step, 1 by 1, into an LLM and asking it to help you set the section up. Tha
 
 ### Step 1: Installing the Program
 
-Installing Wilmer is straightforward. Ensure you have Python installed; the author has been using the program with
-Python 3.10 and 3.12, and both work well.
+Installing Wilmer is straightforward. Ensure you have Python installed (Python 3.10, 3.12, or newer versions should work well).
 
 **Option 1: Using Provided Scripts**
 
@@ -321,7 +320,7 @@ start Wilmer each time.
 
 - **Windows**: Run the provided `.bat` file.
 - **macOS**: Run the provided `.sh` file.
-- **linux**: The author doesn't have a Linux machine and can't test it, so none is provided
+- **linux**: Run the provided `run_linux.sh` file.
 
 > **IMPORTANT:** Never run a BAT or SH file without inspecting it first, as this can be risky. If you are unsure about
 > the safety of such a file, open it in Notepad/TextEdit, copy the contents and then ask your LLM to review it for any
